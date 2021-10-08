@@ -1,0 +1,2 @@
+class IntentionMovement < ApplicationRecord
+end
