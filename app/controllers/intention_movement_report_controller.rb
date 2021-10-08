@@ -6,4 +6,10 @@ class IntentionMovementReportController < ApplicationController
             format.json { render json: IntentionMovementReportDatatable.new(params) }
         end
     end
+
+    def monthly
+    end
+
+    def yearly
+    end
 end
